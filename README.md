@@ -5,5 +5,5 @@
 ![Coverage Status](https://coveralls.io/repos/github/ivana216/Assignment2/badge.svg?branch=main)
 
 Scritto da:
-*Agnese Beschin 2077995
-*Ivana Rose Setche 2090030
+* Agnese Beschin 2077995
+* Ivana Rose Setche 2090030
