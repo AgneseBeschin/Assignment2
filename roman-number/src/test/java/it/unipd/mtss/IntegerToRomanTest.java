@@ -12,13 +12,13 @@ import org.junit.Test;
 public class IntegerToRomanTest {
 
     @Test
-    public void TestClasse_NewObject() {
+    public void testClasse_NewObject() {
         IntegerToRoman object = new IntegerToRoman();
         assertEquals(object.getClass(), IntegerToRoman.class);
     }
 
     @Test
-    public void TestConvert_primi3Num() {
+    public void testConvert_primi3Num() {
         assertEquals(IntegerToRoman.convert(0),"");
         assertEquals(IntegerToRoman.convert(-12),"");
         assertEquals(IntegerToRoman.convert(1),"I");
@@ -27,14 +27,14 @@ public class IntegerToRomanTest {
     }
 
     @Test
-    public void TestConvert_primi6Num() {
+    public void testConvert_primi6Num() {
         assertEquals(IntegerToRoman.convert(4),"IV");
         assertEquals(IntegerToRoman.convert(5),"V");
         assertEquals(IntegerToRoman.convert(6),"VI");
     }
 
     @Test
-    public void TestConvert_primi10Num() {
+    public void testConvert_primi10Num() {
         assertEquals(IntegerToRoman.convert(7),"VII");
         assertEquals(IntegerToRoman.convert(8),"VIII");
         assertEquals(IntegerToRoman.convert(9),"IX");
@@ -42,7 +42,7 @@ public class IntegerToRomanTest {
     }
 
     @Test
-    public void TestConvert_primi20Num() {
+    public void testConvert_primi20Num() {
         assertEquals(IntegerToRoman.convert(12),"XII");
         assertEquals(IntegerToRoman.convert(13),"XIII");
         assertEquals(IntegerToRoman.convert(15),"XV");
@@ -52,7 +52,7 @@ public class IntegerToRomanTest {
     }
 
     @Test
-    public void TestConvert_primi50Num() {
+    public void testConvert_primi50Num() {
         assertEquals(IntegerToRoman.convert(29),"XXIX");
         assertEquals(IntegerToRoman.convert(35),"XXXV");
         assertEquals(IntegerToRoman.convert(48),"XLVIII");
@@ -60,7 +60,7 @@ public class IntegerToRomanTest {
     }
 
     @Test
-    public void TestConvert_primi100Num() {
+    public void testConvert_primi100Num() {
         assertEquals(IntegerToRoman.convert(52),"LII");
         assertEquals(IntegerToRoman.convert(77),"LXXVII");
         assertEquals(IntegerToRoman.convert(85),"LXXXV");
@@ -69,7 +69,7 @@ public class IntegerToRomanTest {
     }
 
     @Test
-    public void TestConvert_primi500Num(){
+    public void testConvert_primi500Num(){
         assertEquals(IntegerToRoman.convert(128),"CXXVIII");
         assertEquals(IntegerToRoman.convert(200),"CC");
         assertEquals(IntegerToRoman.convert(290),"CCXC");
@@ -79,7 +79,7 @@ public class IntegerToRomanTest {
     }
 
     @Test
-    public void TestConvert_primi1000Num(){
+    public void testConvert_primi1000Num(){
         assertEquals(IntegerToRoman.convert(628),"DCXXVIII");
         assertEquals(IntegerToRoman.convert(795),"DCCXCV");
         assertEquals(IntegerToRoman.convert(810),"DCCCX");
