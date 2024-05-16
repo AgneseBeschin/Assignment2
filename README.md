@@ -6,4 +6,4 @@
 
 Scritto da:
 * Agnese Beschin 2077995
-* Ivana Rose Setche 2090030
+* Ivana Rose Nguedjop Setche 2090030
