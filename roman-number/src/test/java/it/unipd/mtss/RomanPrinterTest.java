@@ -12,18 +12,18 @@ import org.junit.Test;
 public class RomanPrinterTest {
 
     @Test
-    public void TestClasse_NewObject() {
+    public void testClasse_NewObject() {
         RomanPrinter object = new RomanPrinter();
         assertEquals(object.getClass(), RomanPrinter.class);
     }
 
     @Test
-    public void TestStampa_zero() {
+    public void testStampa_zero() {
         assertEquals(RomanPrinter.print(0), "\n\n\n\n\n\n");
     }
 
     @Test
-    public void TestStampa_Carattere() {
+    public void testStampa_Carattere() {
         assertEquals(RomanPrinter.print(1), "  _____ \n |_   _|\n   | |  \n   | |  \n  _| |_ \n |_____|\n");
         assertEquals(RomanPrinter.print(5), " __      __\n \\ \\    / /\n  \\ \\  / / \n   \\ \\/ /  \n    \\  /   \n     \\/    \n");
         assertEquals(RomanPrinter.print(10), " __   __\n \\ \\ / /\n  \\ V / \n   > <  \n  / . \\ \n /_/ \\_\\\n");
@@ -34,7 +34,7 @@ public class RomanPrinterTest {
     }
 
     @Test
-    public void TestStampa_Caratteri(){
+    public void testStampa_Caratteri(){
         assertEquals(RomanPrinter.print(16), " __   __ __      __  _____ \n \\ \\ / / \\ \\    / / |_   _|\n  \\ V /   \\ \\  / /    | |  \n   > <     \\ \\/ /     | |  \n  / . \\     \\  /     _| |_ \n /_/ \\_\\     \\/     |_____|\n");
 
         assertEquals(RomanPrinter.print(150), "   _____   _      \n  / ____| | |     \n | |      | |     \n | |      | |     \n | |____  | |____ \n  \\_____| |______|\n");
